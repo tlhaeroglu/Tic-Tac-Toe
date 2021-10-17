@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body class="dark" id="body">
+
+    <div class="container text-center mt-2">
+        <div class="h3 text-white">Tic Tac Toe</div>
+        <div id="ac" class="h6 scoreboard">Puan Durumu</div>
+        <div id="sira" class="h6 text-muted text-white">X başlar</div>
+    </div>
+    <div class="container c-w m-auto color-1">
+        <div class="row px-1 mt-3">
+            <div class="col-4 b c-0">
+                <p class="b-text b-0">
+
+                </p>
+            </div>
+            <div class="col-4 b c-1">
+                <p class="b-text b-1">
+
+                </p>
+            </div>
+            <div class="col-4 b c-2">
+                <p class="b-text b-2">
+
+                </p>
+            </div>
+
+            <div class="col-4 b c-3">
+                <p class="b-text b-3">
+
+                </p>
+            </div>
+            <div class="col-4 b c-4">
+                <p class="b-text b-4">
+
+                </p>
+            </div>
+            <div class="col-4 b c-5">
+                <p class="b-text b-5">
+
+                </p>
+            </div>
+
+            <div class="col-4 b c-6">
+                <p class="b-text b-6">
+
+                </p>
+            </div>
+            <div class="col-4 b c-7">
+                <p class="b-text b-7">
+
+                </p>
+            </div>
+            <div class="col-4 b c-8">
+                <p class="b-text b-8">
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="winText" class="container mt-2 text-center winner-text">
+
+    </div>
+    <div class="text-center mt-2">
+        <button type="button" onclick="clearAll()" class="btn btn-outline-light">Yeni Oyun</button>
+        <button type="button" onclick="resetScore()" class="btn btn-outline-light">Skor Tablosunu Sıfırla</button>
+    </div>
+
+    <div class="frame">
+        <div class="ust">
+            <span id="kapat">x</span>
+        </div>
+        <div class="sol">
+            <p class="head">X</p>
+            <p id="x-score">0</p>
+        </div>
+        <div class="sag">
+            <p class="head">O</p>
+            <p id="o-score">0</p>
+        </div>
+    </div>
+
+    <div class="text-muted bottom">powered by <a href="http://talhaeroglu.com" class="text-muted">Eroglu</a></div>
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

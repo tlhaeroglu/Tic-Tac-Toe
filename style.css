@@ -1,0 +1,122 @@
+.dark {
+  background-color: rgb(8, 0, 29);
+}
+.c-w {
+  width: 50%;
+}
+
+@media screen and (max-width: 392px) {
+  .c-w {
+    width: 90%;
+  }
+}
+.color-1 {
+  background-color: rgb(14, 0, 51);
+}
+
+.scoreboard {
+  text-decoration: underline;
+  cursor: pointer;
+  color: gray;
+}
+
+.scoreboard:hover {
+  color: rgb(211, 211, 211);
+}
+
+.b {
+  padding-left: 5px;
+  width: 50px;
+  height: 150px;
+  border: 1px dashed rgb(173, 173, 173);
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.b-text {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  cursor: context-menu;
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none;
+}
+
+.winner-text {
+  font-weight: 700;
+  font-size: 19px;
+  color: rgb(219, 219, 13);
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 13px;
+  padding: 6px;
+}
+.bottom a {
+  text-decoration: underline;
+}
+
+.frame {
+  background-color: black;
+  position: absolute;
+  height: 260px;
+  width: 220px;
+  border: 2px solid rgb(4, 192, 4);
+  border-radius: 10px;
+  top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.ust {
+  height: 55px;
+  text-align: right;
+  padding-right: 8px;
+  padding-top: 15px;
+}
+.ust span {
+  border: 1px solid rgb(4, 192, 4);
+  border-radius: 80%;
+  padding: 8px;
+}
+
+.sol {
+  float: left;
+  width: 107px;
+  height: 150px;
+  border-right: 1px solid rgb(4, 192, 4);
+}
+.sag {
+  float: right;
+  width: 109px;
+  height: 150px;
+  border-left: 1px solid rgb(4, 192, 4);
+}
+
+.frame div p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.head {
+  border-bottom: 1px solid rgb(4, 192, 4);
+}
